@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mkfdev | 포트폴리오</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="header-top">
+        <h1 class="main-text">MK's Web Portfolio</h1>
+        <address>
+          <a href="mailto:chlald3.k@gmail.com">chlald3.k@gmail.com</a>
+        </address>
+        <div class="sub-text">
+          <span class="status">Available Now</span>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <p class="intro-text">폭 넓은 실무경험을 보유한 웹 퍼블리셔</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- 히어로/메인 섹션 -->
+  <main class="main">
+    <section class="container" id="main">
+      <div class="main-content">
+        <h2 class="main-text">Frontend Developer, <br> Minkyung</h2>
+        <div class="sub-text">
+          <p>웹표준 마크업 기반의 퍼블리싱</p>
+          <p>자바스크립트 인터렉션 구현</p>
+          <p>프론트엔드 개발 및 백엔드 흐름의 이해까지</p>
+          <p>다양한 실무 경험을 보유하고 있습니다.</p>
+        </div>
+      </div>
+
+      <div class="main-bg" aria-hidden="true"></div>
+      
+      <div class="main-guide" role="button" tabindex="0" aria-label="아래로 스크롤">
+        <i class="fa-solid fa-angles-down" aria-hidden="true"></i>
+        <span>scroll down</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- About 섹션 -->
+  <section class="container" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>안녕하세요, 웹퍼블리셔 최민경입니다. <br> 반응형 웹디자인과 웹접근성, 웹표준을 준수한 고품질 웹페이지 제작을 전문으로 합니다.</p>
+      <p>업무의 본질과 목표에 집중하며, <br> 기획자, 디자이너, 개발자와의 원활한 소통과 협업을 통해 최적의 결과를 만들어냅니다.</p>
+      <p>사용자 중심의 직관적인 UI/UX를 구현하는 일에 관심이 많습니다.</p>
+    </div>
+  </section>
+
+  <!-- Blog 섹션 -->
+  <section class="blog-module" aria-labelledby="blog-title">
+    <div class="blog-container">
+      <!-- 왼쪽 고정 영역 -->
+      <aside class="blog-left">
+        <div class="blog-text">
+          <h2>Career Experience</h2>
+          <p>9년 이상의 실무 경험을 보유한 웹 개발자입니다. 공공기관, 금융권, 글로벌 기업의 다양한 프로젝트를 수행했습니다.</p>
+          <a href="#" class="blog-link">이력서 다운로드</a>
+        </div>
+      </aside>
+      
+      <!-- 오른쪽 스크롤 영역 -->
+      <div class="blog-right">
+        <div class="blog-bg-fill" aria-hidden="true"></div>
+        
+        <div class="card-grid-style" role="list" aria-label="경력사항 목록">
+          <article class="career-card" role="listitem">
+              <div class="company-info">
+                  <div class="project-count">최근</div>
+                  <h3 class="company-name">㈜다음정보시스템즈</h3>
+                  <p class="period">2022.03 - 2025.01 (2년 10개월)</p>
+                  <p class="role">IBK기업은행 방카슈랑스시스템 운영(SM)</p>
+              </div>
+              <div class="highlight-projects">
+                  <h4>주요 업무</h4>
+                  <ul class="project-list">
+                      <li>보험 가입설계·청약 유지보수 및 운영</li>
+                      <li>계약배치 점검 및 긴급 이슈 대응</li>
+                      <li>차세대 방카슈랑스 시스템 개편 프로젝트 지원</li>
+                  </ul>
+              </div>
+          </article>
+
+          <article class="career-card" role="listitem">
+            <div class="company-info">
+                <div class="project-count">8개 프로젝트</div>
+                <h3 class="company-name">하이브랩</h3>
+                <p class="period">2018.02 - 2021.04 (3년 2개월)</p>
+                <p class="role">UI개발팀</p>
+            </div>
+            <div class="highlight-projects">
+                <h4>주요 프로젝트</h4>
+                <ul class="project-list">
+                    <li>Samsung.com SHOP 통합</li>
+                    <li>Samsung.com Flagship Buying Tool</li>
+                    <li>Samsung.com EU 컴포넌트 운영</li>
+                    <li>삼성 prototype용 페이지 제작</li>
+                    <li>S10 Buying Configurator 스킨 변경</li>
+                    <li>현대 제네시스 웹사이트 제작 프로젝트</li>
+                    <li>SSG 프로모션 퍼블리싱 및 UI개발</li>
+                    <li>CJ 온스타일 홈페이지 유지보수</li>
+                </ul>
+            </div>
+          </article>
+
+          <article class="career-card" role="listitem">
+            <div class="company-info">
+                <div class="project-count">12개 프로젝트</div>
+                <h3 class="company-name">㈜인사이드정보</h3>
+                <p class="period">2014.12 ~ 2017.07(2년 7개월)</p>
+                <p class="role">UI사업부 디자인팀</p>
+            </div>
+            <div class="highlight-projects">
+                <h4>주요 프로젝트</h4>
+                <ul class="project-list">
+                    <li>주민등록정보 시스템 로그인페이지 (행정자치부) 외 9개 공공사업 프로젝트</li>
+                    <li>계열사 데이타솔루션 사이트 리뉴얼</li>
+                    <li>계열사 오픈SNS 사이트 리뉴얼</li>
+                </ul>
+            </div>
+          </article>
+          <article class="career-card" role="listitem">
+            <div class="company-info">
+                <div class="project-count">인턴</div>
+                <h3 class="company-name">YES24㈜</h3>
+                <p class="period">2013.10 ~ 2014.04(6개월)</p>
+                <p class="role">디자인팀</p>
+            </div>
+            <div class="highlight-projects">
+                <h4>주요 프로젝트</h4>
+                <ul class="project-list">
+                    <li>1월 출석체크 이벤트, 오늘의 반값 유아동 도서 추가, 2014 책읽는 주말 북켄드 캠페인 외 45건</li>
+                </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>  
+    <div class="footer-content">
+      <div class="footer-main">
+          <div class="footer-left">
+              <div class="logo">Minkyung, choi</div>
+              <div class="tagline">Creative Developer</div>
+          </div>
+          
+          <div class="footer-center">
+              <div class="social-links">
+                  <a href="#"  class="social-link email-link" title="Email" data-email="chlald3.k@gmail.com">
+                      <svg viewBox="0 0 24 24">
+                          <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C2.89,4 20,4.89 20,4Z"/>
+                      </svg>
+                  </a>
+                  <a href="https://github.com/mkfdev" class="social-link" target='_blank' title="GitHub">
+                      <svg viewBox="0 0 24 24">
+                          <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"/>
+                      </svg>
+                  </a>
+                  <a href="#" class="social-link" title="LinkedIn" target='_blank'>
+                      <svg viewBox="0 0 24 24">
+                          <path d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M18.5,18.5V13.2A3.26,3.26 0 0,0 15.24,9.94C14.39,9.94 13.4,10.46 12.92,11.24V10.13H10.13V18.5H12.92V13.57C12.92,12.8 13.54,12.17 14.31,12.17A1.4,1.4 0 0,1 15.71,13.57V18.5H18.5M6.88,8.56A1.68,1.68 0 0,0 8.56,6.88C8.56,5.95 7.81,5.19 6.88,5.19A1.69,1.69 0 0,0 5.19,6.88C5.19,7.81 5.95,8.56 6.88,8.56M8.27,18.5V10.13H5.5V18.5H8.27Z"/>
+                      </svg>
+                  </a>
+              </div>
+          </div>
+          
+          <div class="footer-right">
+              <div class="contact-info">
+                  <div class="contact-item email-contact" data-email="chlald3.k@gmail.com">
+                      <svg viewBox="0 0 24 24">
+                          <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C2.89,4 20,4.89 20,4Z"/>
+                      </svg>
+                      <span>chlald3.k@gmail.com</span>
+                  </div>
+                  <div class="contact-item">
+                      <svg viewBox="0 0 24 24">
+                          <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
+                      </svg>
+                      <span>Seoul, Korea</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <div class="copyright">© 2025 MK's Portfolio. All rights reserved.</div>
+      </div>
+  </div>
+</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
